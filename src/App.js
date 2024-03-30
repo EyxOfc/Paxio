@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import Home from './Pages/Home';
-import Pexio from './Pages/Pexio';
+import Paxio from './Pages/Paxio';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/pexio' element={<Pexio />}/>
+        <Route path='/paxio' element={<Paxio />}/>
         <Route path='/*' element={<Navigate to='/'/>}/>
       </Routes>
     </Router>
