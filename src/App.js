@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 
 import Home from './Pages/Home';
 import Paxio from './Pages/Paxio';
-import PaxioApi from './Pages/PaxioApi';
 
 import { useState } from 'react';
 
@@ -31,7 +30,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/paxio' element={<Paxio handleClickUnitButton={handleClickUnitButton} handleClickButtonGerador={handleClickButtonGerador} UnitValue={UnitValue}/>}/>
-        <Route path='/paxio/:Unit' element={<PaxioApi />}/>
         <Route path='/*' element={<Navigate to='/'/>}/>
       </Routes>
     </Router>
