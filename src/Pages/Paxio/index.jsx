@@ -38,7 +38,7 @@ function Paxio({handleClickUnitButton, handleClickButtonGerador, UnitValue}){
 
             <div className='transition .3s flex flex-row flex-nowrap items-center justify-between w-full min-h-[40px] px-[20px] bg-white/10 border-[2px] border-white/5 rounded-[20px] backdrop-blur-sm hover:backdrop-blur-md'>
 
-                <h1 className='overflow-scroll w-full max-w-[70%] font-Sora font-[600] text-[.75rem] text-white'>https://cdn.jsdelivr.net/npm/paxiocode@1.0.0/index.min.js</h1>
+                <h1 className='overflow-scroll w-full max-w-[70%] font-Sora font-[600] text-[.75rem] text-white'>https://cdn.jsdelivr.net/npm/paxiocode@1.0.1/index.min.js</h1>
 
                 <button type="submit" className='flex flex-row flex-nowrap items-center justify-center gap-[5px] px-[24px] py-[6px] bg-sky-600/50 rounded-[20px]'><span className='font-Sora font-[600] text-white text-[.75rem]'>Copy</span><FaRegCopy className='text-sky-500 text-[.75rem]'/></button>
 
