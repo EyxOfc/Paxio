@@ -20,7 +20,7 @@ function Paxio({handleClickUnitButton, handleClickButtonGerador, UnitValue}){
 
             <ButtonPaxioGerador handleClickButtonGerador={handleClickButtonGerador}/>
 
-            {UnitValue != undefined ? <UnitValueContent UnitValue={UnitValue}/> : ''}
+            {UnitValue !== undefined ? <UnitValueContent UnitValue={UnitValue}/> : ''}
 
         </div>
         </>

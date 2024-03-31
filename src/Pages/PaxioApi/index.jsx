@@ -7,7 +7,7 @@ function PaxioApi(){
 
     const { Unit } = useParams();
 
-    return PaxioCode(Unit);
+    return JSON.stringify(PaxioCode(Unit));
 
     
 }
