@@ -1,5 +1,4 @@
 import PaxioCode from 'paxiocode';
-import React from 'react';
 
 import { useParams } from 'react-router-dom';
 
@@ -9,7 +8,6 @@ function PaxioApi(){
 
     return JSON.stringify(PaxioCode(Unit));
 
-    
 }
 
 export default PaxioApi;
