@@ -12,7 +12,7 @@ function Paxio({handleClickUnitButton, handleClickButtonGerador, UnitValue}){
 
     return (
         <>
-        <div className="overflow-scroll flex flex-col flex-nowrap items-center justify-start gap-[50px] w-full h-full p-[20px] bg-cover bg-no-repeat" style={{backgroundImage: `url(${bg})`}}>
+        <div className="overflow-scroll flex flex-col flex-nowrap items-center justify-start gap-[10px] sm:gap-[50px] w-full h-full p-[20px] bg-cover bg-no-repeat" style={{backgroundImage: `url(${bg})`}}>
 
             <h1 className='w-full font-Sora font-[900] text-white text-[3rem] sm:text-[6rem] text-center'>Paxio</h1>
 
@@ -30,7 +30,7 @@ function Paxio({handleClickUnitButton, handleClickButtonGerador, UnitValue}){
 
                 <h1 className='font-Sora font-[600] text-white text-[.75rem] sm:text-[1.5rem]'>npm i paxiocode</h1>
 
-                <button type="submit" className='scale-[2] flex flex-row flex-nowrap items-center justify-center gap-[5px] px-[24px] py-[6px] bg-sky-600/50 rounded-[20px]'><span className='font-Sora font-[600] text-white text-[.75rem]'>Copy</span><FaRegCopy className='text-sky-500 text-[.75rem]'/></button>
+                <button type="submit" className='sm:scale-[2] flex flex-row flex-nowrap items-center justify-center gap-[5px] px-[24px] py-[6px] bg-sky-600/50 rounded-[20px]'><span className='font-Sora font-[600] text-white text-[.75rem]'>Copy</span><FaRegCopy className='text-sky-500 text-[.75rem]'/></button>
 
             </div>
 
@@ -40,7 +40,7 @@ function Paxio({handleClickUnitButton, handleClickButtonGerador, UnitValue}){
 
                 <h1 className='overflow-scroll w-[70%] font-Sora font-[600] text-white text-[.75rem] sm:text-[1.5rem]'>https://cdn.jsdelivr.net/npm/paxiocode@1.0.1/index.min.js</h1>
 
-                <button type="submit" className='scale-[2] flex flex-row flex-nowrap items-center justify-center gap-[5px] px-[24px] py-[6px] bg-sky-600/50 rounded-[20px]'><span className='font-Sora font-[600] text-white text-[.75rem]'>Copy</span><FaRegCopy className='text-sky-500 text-[.75rem]'/></button>
+                <button type="submit" className='sm:scale-[2] flex flex-row flex-nowrap items-center justify-center gap-[5px] px-[24px] py-[6px] bg-sky-600/50 rounded-[20px]'><span className='font-Sora font-[600] text-white text-[.75rem]'>Copy</span><FaRegCopy className='text-sky-500 text-[.75rem]'/></button>
 
             </div>
 
