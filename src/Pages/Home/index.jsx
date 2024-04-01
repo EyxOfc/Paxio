@@ -11,7 +11,7 @@ function Home(){
 
             <a href="/paxio" className='transition .3s flex flex-row flex-nowrap items-center justify-center h-[40px] w-[160px] mt-[10px] font-Sora text-white text-[.75rem] bg-white/10 border-[2px] border-white/5 rounded-[20px] backdrop-blur-sm hover:backdrop-blur-md'>Criar Senha</a>
 
-            <a href="https://github.com/EyxOfc" target='_blank' className='transition .3s flex flex-row flex-nowrap items-center justify-center h-[40px] w-[160px] mt-[10px] font-Sora text-white text-[.75rem] bg-white/10 border-[2px] border-white/5 rounded-[20px] backdrop-blur-sm hover:backdrop-blur-md' rel="noreferrer">Git Hub</a>
+            <a href="https://github.com/EyxOfc/Paxio" target='_blank' className='transition .3s flex flex-row flex-nowrap items-center justify-center h-[40px] w-[160px] mt-[10px] font-Sora text-white text-[.75rem] bg-white/10 border-[2px] border-white/5 rounded-[20px] backdrop-blur-sm hover:backdrop-blur-md' rel="noreferrer">Git Hub</a>
 
             <a href="https://eyxcode.netlify.app" target='_blank' className='transition .3s flex flex-row flex-nowrap items-center justify-center h-[40px] w-[160px] mt-[10px] font-Sora text-white text-[.75rem] bg-white/10 border-[2px] border-white/5 rounded-[20px] backdrop-blur-sm hover:backdrop-blur-md' rel="noreferrer">Criador Paxio</a>
 
