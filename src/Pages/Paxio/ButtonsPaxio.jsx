@@ -5,7 +5,7 @@ function ButtonsPaxio({handleClickUnitButton}){
 
     return (
         <>
-        <div className='w-full flex flex-row flex-nowrap items-center justify-center gap-[20px]'>
+        <div className='scale-[2] w-full flex flex-row flex-nowrap items-center justify-center gap-[20px]'>
             <ButtonPaxio Text={4} handleClickUnitButton={handleClickUnitButton}/>
 
             <ButtonPaxio Text={5} handleClickUnitButton={handleClickUnitButton}/>
